@@ -1,0 +1,98 @@
+@import url("util.css");
+body {
+  background-color: #f6f6f6;
+}
+
+.container {
+  margin: auto;
+  margin-top: 50px;
+  width: 90%;
+  height: ;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.topic-det {
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.personal-contents,.other-det {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1380px;
+}
+.personal-contents > * {
+  flex: 450px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.other-det > * {
+  flex: 450px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.other-det label {
+  position: absolute;
+  margin-top: 22px;
+}
+.other-det input {
+  margin-left: 151px;
+}
+.acad-contents{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1380px;
+}
+.acad-contents > * {
+  flex: 450px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.academic_contents input {
+  margin-left: 151px;
+}
+.academic_contents label {
+  position: absolute;
+  margin-top: 22px;
+}
+
+.label-style {
+  font-family: Inter;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+}
+.text-box {
+  width: 344px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.container{
+  margin: auto;
+  margin-top: 50px;
+  width: 90%;
+  height: ;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+button {
+  width: 216px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #319cea;
+}
+.btn_text {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 2%;
+}

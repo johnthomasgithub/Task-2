@@ -1,0 +1,19 @@
+.font-family{
+    font-family: PlayfairDisplay;
+}
+.mar-bot-20{
+    margin-bottom: 20px;
+}
+.required::after {
+    content: "*";
+    color: red;
+  }
+  .margin_right_20{
+      margin-right: 20px;
+  }
+  .margin-left-15{
+      margin-left: 15px;
+  }
+  .margin-top-15{
+    margin-top: 15px;
+}
